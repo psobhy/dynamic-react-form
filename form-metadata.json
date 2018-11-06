@@ -5,28 +5,28 @@
       "key": "name",
       "type": "text",
       "maxlength": 20,
-      "placeholder": "enter value A",
+      "placeholder": "Your Full Name",
       "required": true
     },
     {
       "label": "E-Mail",
       "key": "email",
       "type": "text",
-      "placeholder": "enter value B",
+      "placeholder": "Your Email",
       "required": false
     },
     {
-      "label": "Gender",
-      "key": "gender",
-      "type": "radiobutton",
-      "options": ["male", "female"],
-      "placeholder": "Select Gender"
+      "label": "Country",
+      "key": "nationality",
+      "type": "select",
+      "options": ["Egypt", "USA", "France"],
+      "placeholder": "Select"
     },
     {
-      "label": "",
+      "label": "Active",
       "key": "check",
       "type": "checkbox",
-      "options": ["1", "2"]
+      "options": ["isActive"]
     }
   ]
 }
