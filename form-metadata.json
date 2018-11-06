@@ -39,7 +39,17 @@
       "key": "age",
       "type": "number",
       "placeholder": "specify an age",
-      "required": true
+      "required": true,
+      "min": "2"
+    },
+    {
+      "label": "Length",
+      "key": "length",
+      "type": "number",
+      "placeholder": "specify",
+      "required": false,
+      "min": "0",
+      "unit": "cm"
     }
   ]
 }
