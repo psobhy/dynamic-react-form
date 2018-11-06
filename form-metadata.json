@@ -23,10 +23,23 @@
       "placeholder": "Select"
     },
     {
+      "label": "Date",
+      "key": "joinDate",
+      "type": "date",
+      "placeholder": "When did you join?"
+    },
+    {
       "label": "Active",
       "key": "check",
       "type": "checkbox",
       "options": ["isActive"]
+    },
+    {
+      "label": "Age",
+      "key": "age",
+      "type": "number",
+      "placeholder": "specify an age",
+      "required": true
     }
   ]
 }
