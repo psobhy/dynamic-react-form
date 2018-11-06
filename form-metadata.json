@@ -1,0 +1,32 @@
+{
+  "FormFields": [
+    {
+      "label": "Name",
+      "key": "name",
+      "type": "text",
+      "maxlength": 20,
+      "placeholder": "enter value A",
+      "required": true
+    },
+    {
+      "label": "E-Mail",
+      "key": "email",
+      "type": "text",
+      "placeholder": "enter value B",
+      "required": false
+    },
+    {
+      "label": "Gender",
+      "key": "gender",
+      "type": "radiobutton",
+      "options": ["male", "female"],
+      "placeholder": "Select Gender"
+    },
+    {
+      "label": "",
+      "key": "check",
+      "type": "checkbox",
+      "options": ["1", "2"]
+    }
+  ]
+}
